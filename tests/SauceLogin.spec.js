@@ -23,7 +23,7 @@ test("Verify Inventory Page", async ({ loggedInPage }) => {
 
     try {
 
-        await expect(loggedInPage).toHaveURL(/wrongurl/);
+        await expect(loggedInPage).toHaveURL(/inventory/);
 
         Logger.testPass("Verify Inventory Page");
 
