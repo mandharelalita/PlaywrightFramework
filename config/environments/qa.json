@@ -1,0 +1,11 @@
+{
+  "name": "QA",
+  "baseURL": "https://www.saucedemo.com",
+  "credentials": {
+    "password": "secret_sauce",
+    "users": {
+      "standard": "standard_user",
+      "lockedOut": "locked_out_user"
+    }
+  }
+}
