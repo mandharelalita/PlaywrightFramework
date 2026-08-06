@@ -19,7 +19,7 @@ import Logger from "../utils/logger.js";
 
 test("Verify Inventory Page", async ({ loggedInPage }) => {
 
-    Logger.testStart("Verify Inventory Page");
+    Logger.testStart("Verify Inventory Page should display successfully");
 
     try {
 
