@@ -17,6 +17,8 @@
 import { test, expect } from "../fixtures/baseFixture.js";
 import Logger from "../utils/logger.js";
 
+//Git Branch Practice
+
 test("Verify Inventory Page", async ({ loggedInPage }) => {
 
     Logger.testStart("Verify Inventory Page should display successfully");
