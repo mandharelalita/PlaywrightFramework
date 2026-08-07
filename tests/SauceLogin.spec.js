@@ -19,6 +19,7 @@ import Logger from "../utils/logger.js";
 
 //Git Branch Practice
 console.log("SauceLogin through VS command")
+console.log("Version A")
 
 test("Verify Inventory Page", async ({ loggedInPage }) => {
 
