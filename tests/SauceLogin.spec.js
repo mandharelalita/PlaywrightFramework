@@ -18,6 +18,7 @@ import { test, expect } from "../fixtures/baseFixture.js";
 import Logger from "../utils/logger.js";
 
 //Git Branch Practice
+console.log("SauceLogin through VS command")
 
 test("Verify Inventory Page", async ({ loggedInPage }) => {
 
