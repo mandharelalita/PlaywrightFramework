@@ -20,6 +20,7 @@ import Logger from "../utils/logger.js";
 //Git Branch Practice
 console.log("SauceLogin through VS command")
 console.log("Version B")
+console.log("Version A")
 
 test("Verify Inventory Page", async ({ loggedInPage }) => {
 
@@ -35,7 +36,7 @@ test("Verify Inventory Page", async ({ loggedInPage }) => {
 
         Logger.testFail("Verify Inventory Page", error.message);
 
-        throw error; // Playwright ला test fail असल्याचं कळण्यासाठी
+        throw error; // Playwright ला test fail असल्याचं कळण्यासाठीgit add .
 
     }
 });
